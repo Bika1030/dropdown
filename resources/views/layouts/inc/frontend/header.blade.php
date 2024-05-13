@@ -83,23 +83,21 @@
                 <div class="header__nav__option">
                     <a href="#" class="search-switch"><img src="{{asset('assets/img/icon/search.png')}}" alt=""></a>
                     <a href="#"><img src="{{asset('assets/img/icon/heart.png')}}" alt=""></a>
-
                     <a href="#"><img src="{{asset('assets/img/icon/cart.png')}}" alt=""></a>
-                    <nav class="navbar">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="{{asset('assets/img/icon/user.png')}}" width="20px" alt="">
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Login</a>
-                                <a class="dropdown-item" href="#"></a>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-
-
-                    </nav>
                 </div>
+                <nav class="navbar">
+                    <li class="nav  dropdown">
+                        <a class="" href=""  data-toggle="dropdown">
+                            <img src="{{asset('assets/img/icon/user.png')}}" width="20px" alt="">
+                        </a>
+                        <div class="dropdown-menu" >
+                            <a class="dropdown-item" href="#">Login</a>
+                            <a class="dropdown-item" href="#">Register</a>
+                            <a class="dropdown-item" href="#">Cart</a>
+                            <a class="dropdown-item" href="#">Logout</a>
+                        </div>
+                    </li>
+                </nav>
             </div>
         </div>
         <div class="canvas__open"><i class="fa fa-bars"></i></div>
